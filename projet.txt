@@ -1,0 +1,94 @@
+projet "pépinère"  ---charte éditoriale
+architecture
+maquettage
+iconographie
+
+
+mobile first
+
+https://maps.app.goo.gl/nEu4HuePEyyrJp3A9
+
+https://www.simplanter-a-dreux.fr/wp-content/uploads/2023/08/Dossier-candidature-pepiniere-d-entreprises-Ateliers-Bureaux.pdf
+https://www.simplanter-a-dreux.fr/agglo-du-pays-de-dreux-pepinieres-dentreprises/
+https://www.settingup-centrevaldeloire.fr/consultez-les-offres/12063-12063-dreux
+
+montserrat 
+font-family: "Inter", sans-serif;
+
+
+
+
+#2E8B57
+#005B96
+#FFD700
+#F5F5F5
+
+### Palette de couleurs recommandée
+- **Vert forêt** #2E8B57 - symbole de croissance
+- **Bleu professionnel** #005B96 - confiance
+- **Jaune énergique** #FFD700 - dynamisme
+- **Gris clair** #F5F5F5 - fond épuré
+
+
+
+taille images
+
+renouvellement nouveau???  remontre seo
+
+Lancez votre activité en toute sérénité !
+
+Les pépinières d’entreprises offrent des bureaux ou ateliers équipés, avec services partagés (internet, téléphonie, accueil, salles de réunion, etc.), pour réduire vos coûts et faciliter votre quotidien.
+
+Profitez d’un secrétariat commun, d’espaces conviviaux (cuisine, détente) et surtout, d’un environnement propice aux échanges, aux partenariats et à la croissance de votre réseau.
+
+Concentrez-vous sur l’essentiel, on s’occupe du reste.
+👉 Rejoignez une pépinière et boostez votre projet dès maintenant !
+
+
+
+/* CSS HEX */
+--charcoal: #264653ff;
+--persian-green: #2a9d8fff;
+--saffron: #e9c46aff;
+--sandy-brown: #f4a261ff;
+--burnt-sienna: #e76f51ff;
+
+/* CSS HSL */
+--charcoal: hsla(197, 37%, 24%, 1);
+--persian-green: hsla(173, 58%, 39%, 1);
+--saffron: hsla(43, 74%, 66%, 1);
+--sandy-brown: hsla(27, 87%, 67%, 1);
+--burnt-sienna: hsla(12, 76%, 61%, 1);
+
+/* SCSS HEX */
+$charcoal: #264653ff;
+$persian-green: #2a9d8fff;
+$saffron: #e9c46aff;
+$sandy-brown: #f4a261ff;
+$burnt-sienna: #e76f51ff;
+
+/* SCSS HSL */
+$charcoal: hsla(197, 37%, 24%, 1);
+$persian-green: hsla(173, 58%, 39%, 1);
+$saffron: hsla(43, 74%, 66%, 1);
+$sandy-brown: hsla(27, 87%, 67%, 1);
+$burnt-sienna: hsla(12, 76%, 61%, 1);
+
+/* SCSS RGB */
+$charcoal: rgba(38, 70, 83, 1);
+$persian-green: rgba(42, 157, 143, 1);
+$saffron: rgba(233, 196, 106, 1);
+$sandy-brown: rgba(244, 162, 97, 1);
+$burnt-sienna: rgba(231, 111, 81, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #264653ff, #2a9d8fff, #e9c46aff, #f4a261ff, #e76f51ff);
+$gradient-right: linear-gradient(90deg, #264653ff, #2a9d8fff, #e9c46aff, #f4a261ff, #e76f51ff);
+$gradient-bottom: linear-gradient(180deg, #264653ff, #2a9d8fff, #e9c46aff, #f4a261ff, #e76f51ff);
+$gradient-left: linear-gradient(270deg, #264653ff, #2a9d8fff, #e9c46aff, #f4a261ff, #e76f51ff);
+$gradient-top-right: linear-gradient(45deg, #264653ff, #2a9d8fff, #e9c46aff, #f4a261ff, #e76f51ff);
+$gradient-bottom-right: linear-gradient(135deg, #264653ff, #2a9d8fff, #e9c46aff, #f4a261ff, #e76f51ff);
+$gradient-top-left: linear-gradient(225deg, #264653ff, #2a9d8fff, #e9c46aff, #f4a261ff, #e76f51ff);
+$gradient-bottom-left: linear-gradient(315deg, #264653ff, #2a9d8fff, #e9c46aff, #f4a261ff, #e76f51ff);
+$gradient-radial: radial-gradient(#264653ff, #2a9d8fff, #e9c46aff, #f4a261ff, #e76f51ff);
+

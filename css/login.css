@@ -1,0 +1,80 @@
+body,
+main {
+    background-color: var(--bg-color-bleu);
+    margin: 0 auto 3rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+header{
+    text-align: center;
+}
+.logo {
+    height: 6rem;
+    width: 14rem;
+    margin: 3rem auto;
+    /* background-color: pink; */
+    /* background-image: url(../medias/images/logo-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    
+}
+h1{
+    font-size: 0;
+}
+
+p {
+    font-family: "Roboto";
+    text-align: center;
+}
+
+form {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form input {
+    height: 3rem;
+    width: 15rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+}
+
+form input.styled {
+    margin-top: 2rem;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    background-image: linear-gradient(to top left,
+            rgb(0 0 0 / 20%),
+            rgb(0 0 0 / 20%) 30%,
+            rgb(0 0 0 / 0%));
+    box-shadow:
+        inset 2px 2px 3px rgb(255 255 255 / 60%),
+        inset -2px -2px 3px rgb(0 0 0 / 60%);
+}
+
+.styled:hover {
+    background-color: var(--hover-primary-color);
+}
+
+.styled:active {
+    box-shadow:
+        inset -2px -2px 3px rgb(255 255 255 / 60%),
+        inset 2px 2px 3px rgb(0 0 0 / 60%);
+}
+
+.mpo{
+    text-decoration: underline;
+}
