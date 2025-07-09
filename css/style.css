@@ -1,5 +1,7 @@
         /* ========les styles pour mobile d’abord======== */
-       
+#logo:hover{
+filter: drop-shadow(4px 4px 4px #44dd72);
+}
         .p-3 {
             padding-top: 2rem;
         }
@@ -178,32 +180,28 @@
 
         /* card */
         .card-img {
-            width: 200px;
-            /* height: 200px; */
-            background-image: url(../medias/images/photo-local.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+            object-fit: contain;
+        }
+
+        .img-local {
+            height: 85%;
             border-radius: 1rem;
         }
 
         .card {
             width: 100%;
-            height: 17rem;
-            padding: 1rem;
             display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            /* gap: 1rem; */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             font-size: 0.8rem;
             background-color: var(--bg-color);
             border-radius: 1rem;
-            margin-top: 1rem;
-
+            padding: 1rem;
+            margin: 1rem auto;
         }
 
         .card-description {
-            /* height: 400px; */
             text-align: center;
             align-items: center;
         }
@@ -250,6 +248,18 @@
         footer a {
             color: white;
             text-decoration: none;
+        }
+
+        @media (min-width:400px) {
+            .location .card {
+                height: 15rem;
+                padding: 1rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                margin-top: 1rem;
+
+            }
         }
 
         /* les écrans larges */
@@ -317,7 +327,7 @@
         }
 
 
-        @media (min-width: 834px) {
+        /* @media (min-width: 834px) {
             .location {
                 display: flex;
                 flex-direction: row;
@@ -327,12 +337,21 @@
             .map {
                 padding: 2rem;
             }
-        }
+        } */
 
         /* =========responsive pour les écrans plus larges ==========*/
         @media screen and (min-width: 1024px) {
             body {
                 max-width: 1440px;
                 margin: auto;
+            }
+             .location {
+                display: flex;
+                flex-direction: row;
+                gap: 5%;
+            }
+
+            .map {
+                padding: 2rem;
             }
         }
