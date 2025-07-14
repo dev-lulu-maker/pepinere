@@ -1,3 +1,15 @@
+ :root {
+     --bg-color: #D6F0DC;
+     --bg-color-yellow: #F7EBA7;
+     --bg-color-bleu: #E6F0FC;
+     --text-color: #000000;
+     --primary-color: #12CC3A;
+     --secondary-color: #4163D3;
+     --hover-primary-color: #079426;
+     --hover-color-secondary: #263E8C;
+     --bg-color-card: #CDF0E0;
+ }
+
 body,
 main {
     background-color: var(--bg-color-bleu);
@@ -51,7 +63,7 @@ form input.styled {
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color) ;
     background-image: linear-gradient(to top left,
             rgb(0 0 0 / 20%),
             rgb(0 0 0 / 20%) 30%,

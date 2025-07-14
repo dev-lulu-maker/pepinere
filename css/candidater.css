@@ -1,0 +1,29 @@
+.card-img img {
+    width: 4rem;
+    height: 4rem;
+}
+
+main,
+section,
+.card,
+.card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-description,
+.m {
+    margin: 2rem 20%;
+}
+
+.m h3 {
+    margin: 1rem auto;
+
+}
+
+.hero-carousel {
+    background-image: url(../medias/images/unsplash_6y6DGYcuQNo.jpg);
+}

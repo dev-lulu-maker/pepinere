@@ -1,0 +1,41 @@
+.hero-carousel {
+    background-image: url(../medias/images/hero3.jpg);
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-heberger {
+    width: 300px;
+    margin: 2rem auto;
+    background-color: var(--bg-color-card);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+}
+
+.eb h3 {
+    width: 70%;
+    margin: 2rem auto;
+    background-color: var(--bg-color-card);
+    height: 3rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+@media (min-width: 768px) {
+    .heberger {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+}
