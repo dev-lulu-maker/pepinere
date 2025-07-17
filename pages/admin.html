@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Ajouter une actualité</title>
+  <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+  <main class="admin">
+    <h1>Ajouter une actualité</h1>
+
+    <form id="form-actu">
+      <input type="text" id="titre" placeholder="Titre" required>
+      <input type="date" id="date" required>
+      <textarea id="contenu" placeholder="Contenu" required></textarea>
+      <button type="submit">Ajouter</button>
+    </form>
+
+    <section id="actu-container">
+      <!-- Les actualités ajoutées s'affichent ici -->
+    </section>
+  </main>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

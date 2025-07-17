@@ -79,7 +79,14 @@
      font-family: "Roboto", sans-serif;
      font-size: 0.85rem;
      font-weight: bold;
+ }
 
+ .navbar li a:hover {
+     color: var(--primary-color);
+ }
+
+ .navbar li .act {
+     color: var(--primary-color);
  }
 
  .menu {
@@ -232,6 +239,10 @@
          text-wrap: nowrap;
      }
 
+     .navbar li .act {
+         color: var(--primary-color);
+     }
+
      .btnClose {
          display: none;
      }
@@ -244,6 +255,7 @@
      .navbar li a:hover {
          color: var(--primary-color);
      }
+
  }
 
  /* =========responsive pour les écrans plus larges ==========*/
