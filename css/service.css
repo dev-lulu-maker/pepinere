@@ -1,18 +1,20 @@
 .hero-carousel {
     background-image: url(../medias/images/hero2.jpg);
 }
-.card-description{
+
+.card-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 p {
     margin: 0 10% 2rem;
 }
 
 
-.card-img img{
+.card-img img {
     width: 100%;
     border-radius: 1rem;
 }
@@ -30,10 +32,18 @@ p {
     margin: 3rem auto;
 }
 
-.card div{
+.card div {
     width: 80%;
     margin: 0 auto;
     border-radius: 1rem;
+}
+
+.card-description ul li{
+    width: 99%;
+    border-radius: 1rem;
+}
+.card-description ul{
+    margin-bottom: 2rem;
 }
 
 table {
@@ -58,5 +68,14 @@ tfoot {
 @media (min-width: 768px) {
     .tg {
         text-align: center;
+    }
+
+    .card-g {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2rem auto;
+        width: 85%;
     }
 }
