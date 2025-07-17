@@ -41,9 +41,11 @@ p {
 .card-description ul li{
     width: 99%;
     border-radius: 1rem;
+    
 }
 .card-description ul{
     margin-bottom: 2rem;
+  
 }
 
 table {
