@@ -36,25 +36,30 @@
     <main>
         <section>
             <h1>contact</h1>
-            <form action="#" method="post" class="bgt">
+            <form action="#" method="post" class="bgt" id="contactForm">
                 <div>
-                    <label for="name">votre nom</label>
-                    <input type="text" id="name" name="name" placeholder="votre nom">
+                    <label for="name">votre nom <span class="error" id="nameError"></span></label>
+
+                    <input type="text" id="name" name="name" placeholder="votre nom" required>
                 </div>
                 <div>
-                    <label for="email">votre E-mail</label>
-                    <input type="text" id="email" name="email" placeholder="votre E-mail">
+                    <label for="email">votre E-mail <span class="error" id="emailError"></span></label>
+                    
+                    <input type="text" id="email" name="email" placeholder="votre E-mail" required>
                 </div>
                 <div>
                     <label for="objet">Objet</label>
                     <input type="text" id="objet" name="objet" placeholder="Objet">
                 </div>
                 <div>
-                    <label for="message">votre message</label>
-                    <textarea rows="5" cols="30" name="message" id="message"></textarea>
+                    <label for="message">votre message <span class="error" id="messageError"></span></label>
+                    
+                    <textarea rows="5" cols="30" name="message" id="message" required></textarea>
                 </div>
                 <button class="cta-button" type="submit">Envoyer</button>
             </form>
+
+            <div id="formError" style="color:red;"></div>
 
             <div class="agglo">
                 <ul class="card-sm bgt">
@@ -98,9 +103,8 @@
         </div>
         <a href="#">Pépinières d'entreprises © 2025</a>
     </footer>
-
-
-    <script src="../js/main.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/validerFormulaire.js"></script>
 </body>
 
 </html>
